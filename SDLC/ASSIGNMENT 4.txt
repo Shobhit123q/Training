@@ -1,0 +1,119 @@
+ASSIGNMENT 4
+ 
+Scrum Framework Overview - Prepare a one-page cheat sheet on the Scrum framework that includes roles, responsibilities, artifacts, and ceremonies. Provide a brief example of a Sprint task list for the earlier mentioned app project.
+
+
+
+
+TEAM 4
+Epic: User Login and Registration
+User Registration
+Story:
+Given I am a new user
+When I want to register for an account
+Then I should be able to do so using my email address or phone number.
+Story Points: 3
+Acceptance Criteria:
+when User register with email address and password, after registering he should be able to login using mail and password
+ Also User should  receive a confirmation email after registration.
+User Login
+Story:
+Given I am a registered user
+When I want to log in
+Then I should be able to enter my credentials and access my account.
+Story Points: 2
+Acceptance Criteria: 
+after log in with a valid email and password, User should be redirected to the homepage/dashboard after successful login.
+Else he should be directed to password recovery
+Password Recovery
+Story:
+Given I have forgotten my password
+When I request a password reset
+Then I should receive an email with instructions to reset my password.
+Story Points: 3
+Acceptance Criteria: User should be able to request a password reset using their email address. 
+And should receive an email with a password reset link.
+Profile Management
+Story:
+Given I am logged into my account
+When I want to update my profile information
+Then I should be able to change my address, phone number, and other personal details.
+Story Points: 5
+Acceptance Criteria:
+User should be able to update their address, phone number, and other details.
+Epic: User Order Management
+Browse Menu
+Story:
+Given I am viewing a restaurant's page
+When I want to see the available food items
+Then I should be able to browse the restaurant's menu.
+Story Points: 2
+Acceptance Criteria: User should be able to  see the menu items with descriptions and prices.
+Add to Cart
+Story:
+Given I am viewing the menu of a restaurant,
+When I want to order a specific item,
+Then I should be able to add it to my cart.
+Story Points: 2
+Acceptance Criteria: User should be able to add items to their cart.
+Place Order
+Story: 
+Given I have added items to my cart
+ When I am ready to check out
+Then I should be able to place my order.
+Story Points: 5
+Acceptance Criteria: User should be able to review their order before placing it.
+Order Tracking
+Story:
+Given I have placed an order
+ When I want to know the status of my order
+Then I should be able to track it in real-time.
+Story Points: 8
+Acceptance Criteria: User should be able to see the status of their order (e.g., preparing, out for delivery, delivered).
+ 
+Epic: User Payment
+Multiple Payment Options
+Story:
+Given I am ready to check out
+When I need to select a payment method
+Then I should be able to choose from online payment or cash on delivery.
+Story Points: 5
+Acceptance Criteria: User should be able to select from multiple payment options (online payment or cash on delivery).
+Payment Confirmation
+Story:
+Given I have entered my payment details
+When I place my order
+Then I should receive a payment confirmation.
+Story Points: 3
+Acceptance Criteria: User should receive a confirmation message upon successful payment.
+ 
+Epic: User Feedback
+Leave a Review
+Story:
+Given I have received my order
+ When I want to share my experience
+Then I should be able to leave a review for the restaurant.
+Story Points: 3
+Acceptance Criteria: User should be able to leave a review for the restaurant.
+Rate Order Experience
+Story:
+Given I have completed an order
+ When I want to provide feedback
+ Then I should be able to rate my overall order experience, including delivery time and food quality.
+Story Points: 2
+Acceptance Criteria: User should be able to rate their order experience.
+View User Reviews
+Story:
+Given I am browsing restaurants
+When I want to see others' experiences
+Then I should be able to read user reviews for the restaurants.
+Story Points: 2
+Acceptance Criteria: User should be able to see a list of reviews for each restaurant.
+Report an Issue
+Story:
+Given I have encountered a problem with my order
+ When I need assistance
+ Then I should be able to report the issue and receive support.
+Story Points: 5
+Acceptance Criteria: User can report an issue with their order through the app.
+ 
